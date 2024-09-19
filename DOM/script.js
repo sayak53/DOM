@@ -6,11 +6,11 @@
 
 // ul.append(li)
 
-document.getElementById('update').addEventListener('click',function(){
-    const inputField=document.getElementById('input-field')
-    const inputText = inputField.value
+// document.getElementById('update').addEventListener('click',function(){
+//     const inputField=document.getElementById('input-field')
+//     const inputText = inputField.value
 
-    const p = document.getElementById('text')
-    p.innerText = inputText
-    inputField.value = " "
-})
+//     const p = document.getElementById('text')
+//     p.innerText = inputText
+//     inputField.value = " "
+// })
