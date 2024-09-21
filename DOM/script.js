@@ -17,6 +17,10 @@ document.getElementById('update').addEventListener('click',function(){
 
 document.getElementById('post-btn').addEventListener('click',function(){
     const comment=document.getElementById('comment-box').value
-    const box=document.getElementById('comment-container')
-    box.appendChild(comment)
+    const p=document.createElement('p')
+    p.innerText=comment
+
+    document.getElementById('comment-container').appendChild(p)
+    
+    document.getElementById('comment-box').value=""
 })
