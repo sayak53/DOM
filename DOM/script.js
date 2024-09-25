@@ -6,7 +6,8 @@
 
 // ul.append(li)
 
-document.getElementById('update').addEventListener('click',function(){
+document.getElementById('update').addEventListener('click',function(e){
+    e.preventDefault()
     const inputField=document.getElementById('input-field')
     const inputText = inputField.value
 
