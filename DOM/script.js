@@ -13,7 +13,7 @@ document.getElementById('update').addEventListener('click',function(e){
 
     const p = document.getElementById('text')
     p.innerText = inputText
-    inputField.value = " "
+    inputField.value = ""
 })
 
 document.getElementById('post-btn').addEventListener('click',function(){
