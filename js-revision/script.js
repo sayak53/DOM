@@ -24,3 +24,10 @@ const obj={
     income:5000000
 }
 console.log(Object.values(obj))
+
+// understanding map
+
+const numbers=[12,4,7,5,4,6575,5754]
+
+const square=numbers.map(number => number*2)
+console.log(square)
