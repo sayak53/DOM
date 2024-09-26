@@ -21,6 +21,6 @@ const obj={
     name:"Batman",
     profession:"The dark knight",
     age:32,
-    income:12879456987
+    income:5000000
 }
 console.log(Object.values(obj))
