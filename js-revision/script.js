@@ -16,3 +16,11 @@ const doMath=(a,b,c,d)=>{
 }
 
 const res=console.log(doMath(10,5,25,5))
+
+const obj={
+    name:"Batman",
+    profession:"The dark knight",
+    age:32,
+    income:12879456987
+}
+console.log(Object.values(obj))
