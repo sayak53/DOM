@@ -25,11 +25,16 @@ const constructor=[
     {name:'akifs',age:26,position:'junior'},
     {name:'asif',age:26,position:'senior'}
 ]
-let newConstructor=[]
+const pos=constructor.filter(cons => cons.position == 'senior')
+console.log(pos)
 
-for(cons of constructor){
-    if(cons.position=='senior'){
-        newConstructor.push(cons)
-    }
+const names=[
+    {name:'akil',age:26,},
+    {name:'akifs',age:29,},
+    {name:'asif',age:35,}
+]
+let age=0
+for(const name of names){
+    age += name.age
 }
-console.log(newConstructor)
+console.log(age)
