@@ -19,3 +19,17 @@ const array=[33,50,78,79,90,101,30]
 const divisible=array.filter(num =>num%10==0)
 
 console.log(divisible)
+
+const constructor=[
+    {name:'akil',age:26,position:'senior'},
+    {name:'akifs',age:26,position:'junior'},
+    {name:'asif',age:26,position:'senior'}
+]
+let newConstructor=[]
+
+for(cons of constructor){
+    if(cons.position=='senior'){
+        newConstructor.push(cons)
+    }
+}
+console.log(newConstructor)
