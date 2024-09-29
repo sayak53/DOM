@@ -6,7 +6,7 @@
 //         even.push(num)
 //     }
 // }
-// console.log(even)
+console.log(even)
 
 const numbers=[1,3,5,7,9]
 
