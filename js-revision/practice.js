@@ -28,11 +28,11 @@
 // const pos=constructor.filter(cons => cons.position == 'senior')
 // console.log(pos)
 
-// const names=[
-//     {name:'akil',age:26,},
-//     {name:'akifs',age:29,},
-//     {name:'asif',age:35,}
-// ]
+const names=[
+    {name:'akil',age:26,},
+    {name:'akifs',age:29,},
+    {name:'asif',age:35,}
+]
 let age=0
 for(const name of names){
     age += name.age
