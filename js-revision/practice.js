@@ -33,11 +33,11 @@
 //     {name:'akifs',age:29,},
 //     {name:'asif',age:35,}
 // ]
-// let age=0
-// for(const name of names){
-//     age += name.age
-// }
-// console.log(age)
+let age=0
+for(const name of names){
+    age += name.age
+}
+console.log(age)
 
 function greetings(greet,name){
     return greet + ' ' + name
