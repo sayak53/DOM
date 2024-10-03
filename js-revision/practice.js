@@ -55,4 +55,4 @@ const sum =(p, q)=> {
      return p + q;
    }
    const result = sum(2, 3);
-   console.log(result);
+   console.log(result)
