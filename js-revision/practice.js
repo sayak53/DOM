@@ -14,7 +14,7 @@ const even=numbers.map(num => num+=1)
 
 console.log(even)
 
-const array=[33,50,78,79,90,101,]
+const array=[33,50,78,79,90,101,40]
 
 const divisible=array.filter(num =>num%10==0)
 
