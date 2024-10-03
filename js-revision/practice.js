@@ -47,12 +47,12 @@ const res = greetings('Good Morning','Sayak')
 console.log(res)
 
 function work(x, y = 4) {
-    return x + y;
+    return x + y
    }
-   console.log(work(32));
+   console.log(work(32))
 
 const sum =(p, q)=> {
-     return p + q;
+     return p + q
    }
-   const result = sum(2, 3);
+   const result = sum(2, 3)
    console.log(result)
