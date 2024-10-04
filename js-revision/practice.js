@@ -40,7 +40,7 @@ for(const name of names){
 console.log(age)
 
 function greetings(greet,name){
-    return greet + ' ' + name
+    return greet + ' ' + nam
 }
 
 const res = greetings('Good Morning','Sayak')
