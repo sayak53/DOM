@@ -26,7 +26,7 @@ const constructor=[
     {name:'asif',age:26,position:'senior'}
 ]
 const pos=constructor.filter(cons => cons.position == 'senior')
-// console.log(pos)
+console.log(pos)
 
 const names=[
     {name:'akil',age:26,},
