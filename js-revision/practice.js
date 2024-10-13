@@ -21,7 +21,7 @@ const divisible=array.filter(num =>num%10==0)
 console.log(divisible)
 
 const constructor=[
-    {name:'akil',age:26,position:'senior'}
+    {name:'akil',age:26,position:'senior'},
     {name:'akifs',age:26,position:'junior'},
     {name:'asif',age:26,position:'senior'}
 ]
